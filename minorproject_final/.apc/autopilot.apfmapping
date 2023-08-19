@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="spmvkernel.cpp" path="D:\xilinx\minorproject_final\sourcefiles\spmvkernel.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="readspm.cpp" path="D:\xilinx\minorproject_final\sourcefiles\readspm.cpp"/>
+    <originFiles name="spmv.h" path="D:\xilinx\minorproject_final\sourcefiles\spmv.h"/>
+    <originFiles name="spmvtop.cpp" path="D:\xilinx\minorproject_final\sourcefiles\spmvtop.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,46 @@
+INFO: [HLS 200-10] Running 'D:/xilinx/vitis2020.1/Vitis/2020.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user '91798' on host 'tinas-desktop' (Windows NT_amd64 version 6.2) on Mon Aug 14 14:56:36 +0530 2023
+INFO: [HLS 200-10] In directory 'D:/xilinx/minorproject_final'
+Sourcing Tcl script 'D:/xilinx/minorproject_final/minorproject_final/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project 'D:/xilinx/minorproject_final/minorproject_final'.
+INFO: [HLS 200-10] Adding design file 'sourcefiles/spmvkernel.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'sourcefiles/readspm.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'sourcefiles/spmv.h' to the project
+INFO: [HLS 200-10] Adding test bench file 'sourcefiles/spmvtop.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'D:/xilinx/minorproject_final/minorproject_final/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/html_docs/xilinx2020_1/hls-guidance/200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -output=D:/xilinx/minorproject_final/output_ip/spmv_kernel.zip
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1074.238 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/vitis2020.1/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'spmv_kernel_ap_faddfsub_3_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1074.238 ; gain = 0.000
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'spmv_kernel_ap_faddfsub_3_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'spmv_kernel_ap_faddfsub_3_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'spmv_kernel_ap_fmul_2_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.238 ; gain = 0.000
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'spmv_kernel_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'spmv_kernel_ap_fmul_2_max_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'spmv_kernel_ap_sitofp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.238 ; gain = 0.000
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'spmv_kernel_ap_sitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'spmv_kernel_ap_sitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/vitis2020.1/Vivado/2020.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 14 14:57:53 2023...
+INFO: [HLS 200-802] Generated output file output_ip/spmv_kernel.zip

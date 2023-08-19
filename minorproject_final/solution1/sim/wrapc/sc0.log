@@ -1,0 +1,6 @@
+   Build using "D:/xilinx/vitis2020.1/Vitis/2020.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling spmvkernel.cpp_pre.cpp.tb.cpp
+   Compiling apatb_spmv_kernel.cpp
+   Compiling spmvtop.cpp_pre.cpp.tb.cpp
+   Compiling readspm.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

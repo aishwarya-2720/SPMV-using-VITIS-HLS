@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spmv_kernel.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_spmv_kernel_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">values__row_indices__x__y(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group4" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group5" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group6" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_0_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group52" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group53" type="group">
+            <obj_property name="label">nnz(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/nnz" type="array">
+               <obj_property name="ElementShortName">nnz[31:0]</obj_property>
+               <obj_property name="ObjectShortName">nnz[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group55" type="group">
+            <obj_property name="label">m(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m" type="array">
+               <obj_property name="ElementShortName">m[31:0]</obj_property>
+               <obj_property name="ObjectShortName">m[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group57" type="group">
+            <obj_property name="label">n(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/n" type="array">
+               <obj_property name="ElementShortName">n[31:0]</obj_property>
+               <obj_property name="ObjectShortName">n[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group59" type="group">
+            <obj_property name="label">return(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/y" type="array">
+               <obj_property name="ElementShortName">y[63:0]</obj_property>
+               <obj_property name="ObjectShortName">y[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/x" type="array">
+               <obj_property name="ElementShortName">x[63:0]</obj_property>
+               <obj_property name="ObjectShortName">x[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/row_indices" type="array">
+               <obj_property name="ElementShortName">row_indices[63:0]</obj_property>
+               <obj_property name="ObjectShortName">row_indices[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/col_indices" type="array">
+               <obj_property name="ElementShortName">col_indices[63:0]</obj_property>
+               <obj_property name="ObjectShortName">col_indices[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/values" type="array">
+               <obj_property name="ElementShortName">values[63:0]</obj_property>
+               <obj_property name="ObjectShortName">values[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group65" type="group">
+            <obj_property name="label">col_indices(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group66" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group67" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group68" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/m_axi_gmem_1_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_1_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_1_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group114" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group119" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group121" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_spmv_kernel_top/AESL_inst_spmv_kernel/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group123" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group124" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group125" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/AUTOTB_TRANSACTION_NUM" type="other">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group126" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_gmem_0" type="other">
+               <obj_property name="ElementShortName">LENGTH_gmem_0</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem_0</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_gmem_1" type="other">
+               <obj_property name="ElementShortName">LENGTH_gmem_1</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem_1</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_values" type="other">
+               <obj_property name="ElementShortName">LENGTH_values</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_values</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_col_indices" type="other">
+               <obj_property name="ElementShortName">LENGTH_col_indices</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_col_indices</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_row_indices" type="other">
+               <obj_property name="ElementShortName">LENGTH_row_indices</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_row_indices</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_x" type="other">
+               <obj_property name="ElementShortName">LENGTH_x</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_x</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_y" type="other">
+               <obj_property name="ElementShortName">LENGTH_y</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_y</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_n" type="other">
+               <obj_property name="ElementShortName">LENGTH_n</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_n</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_m" type="other">
+               <obj_property name="ElementShortName">LENGTH_m</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_m</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/LENGTH_nnz" type="other">
+               <obj_property name="ElementShortName">LENGTH_nnz</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_nnz</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group140" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group141" type="group">
+            <obj_property name="label">values__row_indices__x__y(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group142" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RID" type="array">
+                  <obj_property name="ElementShortName">gmem_0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_0_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group143" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_BID" type="array">
+                  <obj_property name="ElementShortName">gmem_0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WID" type="array">
+                  <obj_property name="ElementShortName">gmem_0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem_0_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_0_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group144" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_0_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group190" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group191" type="group">
+            <obj_property name="label">nnz(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/nnz" type="array">
+               <obj_property name="ElementShortName">nnz[31:0]</obj_property>
+               <obj_property name="ObjectShortName">nnz[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group193" type="group">
+            <obj_property name="label">m(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/m" type="array">
+               <obj_property name="ElementShortName">m[31:0]</obj_property>
+               <obj_property name="ObjectShortName">m[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group195" type="group">
+            <obj_property name="label">n(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/n" type="array">
+               <obj_property name="ElementShortName">n[31:0]</obj_property>
+               <obj_property name="ObjectShortName">n[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group197" type="group">
+            <obj_property name="label">return(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_spmv_kernel_top/y" type="array">
+               <obj_property name="ElementShortName">y[63:0]</obj_property>
+               <obj_property name="ObjectShortName">y[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/x" type="array">
+               <obj_property name="ElementShortName">x[63:0]</obj_property>
+               <obj_property name="ObjectShortName">x[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/row_indices" type="array">
+               <obj_property name="ElementShortName">row_indices[63:0]</obj_property>
+               <obj_property name="ObjectShortName">row_indices[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/col_indices" type="array">
+               <obj_property name="ElementShortName">col_indices[63:0]</obj_property>
+               <obj_property name="ObjectShortName">col_indices[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_spmv_kernel_top/values" type="array">
+               <obj_property name="ElementShortName">values[63:0]</obj_property>
+               <obj_property name="ObjectShortName">values[63:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group203" type="group">
+            <obj_property name="label">col_indices(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group204" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_1_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_1_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RID" type="array">
+                  <obj_property name="ElementShortName">gmem_1_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_1_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_1_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group205" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_1_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_BID" type="array">
+                  <obj_property name="ElementShortName">gmem_1_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_1_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_1_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WID" type="array">
+                  <obj_property name="ElementShortName">gmem_1_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem_1_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_1_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_1_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group206" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_spmv_kernel_top/gmem_1_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_1_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_1_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

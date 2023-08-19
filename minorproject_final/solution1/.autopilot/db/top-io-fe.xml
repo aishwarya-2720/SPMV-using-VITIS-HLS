@@ -1,0 +1,15 @@
+<root versionMajor = "1" versionMinor = "5">
+  <kernel src_name="spmv_kernel" language="c" hwCtrl="ap_ctrl_hs" mem_layout="fpga64-xilinx-none">
+    <args>
+      <arg id="0" access_type="r" src_name="values" src_type="float*" src_isptr="1" src_bitwidth="32" src_size_or_depth="60098" hw_interface="MAXI" hw_name="gmem_0" hw_bitwidth="32" hw_size_or_depth="0" offset_bundle_interface="Register" offset_bundle_interface_name="values" offset="0x0"/>
+      <arg id="1" access_type="r" src_name="col_indices" src_type="int*" src_isptr="1" src_bitwidth="32" src_size_or_depth="60098" hw_interface="MAXI" hw_name="gmem_1" hw_bitwidth="32" hw_size_or_depth="0" offset_bundle_interface="Register" offset_bundle_interface_name="col_indices" offset="0x0"/>
+      <arg id="2" access_type="r" src_name="row_indices" src_type="int*" src_isptr="1" src_bitwidth="32" src_size_or_depth="60098" hw_interface="MAXI" hw_name="gmem_0" hw_bitwidth="32" hw_size_or_depth="0" offset_bundle_interface="Register" offset_bundle_interface_name="row_indices" offset="0x0"/>
+      <arg id="3" access_type="r" src_name="x" src_type="float*" src_isptr="1" src_bitwidth="32" src_size_or_depth="60098" hw_interface="MAXI" hw_name="gmem_0" hw_bitwidth="32" hw_size_or_depth="0" offset_bundle_interface="Register" offset_bundle_interface_name="x" offset="0x0"/>
+      <arg id="4" access_type="r" src_name="y" src_type="float*" src_isptr="1" src_bitwidth="32" src_size_or_depth="60098" hw_interface="MAXI" hw_name="gmem_0" hw_bitwidth="32" hw_size_or_depth="0" offset_bundle_interface="Register" offset_bundle_interface_name="y" offset="0x0"/>
+      <arg id="5" access_type="r" src_name="n" src_type="int" src_isptr="0" src_bitwidth="32" src_size_or_depth="1" hw_interface="Register" hw_name="n" hw_bitwidth="32" hw_size_or_depth="1"/>
+      <arg id="6" access_type="r" src_name="m" src_type="int" src_isptr="0" src_bitwidth="32" src_size_or_depth="1" hw_interface="Register" hw_name="m" hw_bitwidth="32" hw_size_or_depth="1"/>
+      <arg id="7" access_type="r" src_name="nnz" src_type="int" src_isptr="0" src_bitwidth="32" src_size_or_depth="1" hw_interface="Register" hw_name="nnz" hw_bitwidth="32" hw_size_or_depth="1"/>
+    </args>
+    <return src_type="void" src_bitwidth="0" hw_interface="" hw_name="" hw_bitwidth="0" offset="0x0"/>
+  </kernel>
+</root>

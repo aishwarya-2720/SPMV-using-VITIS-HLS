@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug 11 14:06:13 2023
+# Process ID: 20180
+# Current directory: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl
+# Command line: wbtcv.exe -mode batch -source D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl/xsim.dir/spmv_kernel/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl/webtalk.log
+# Journal file: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl\webtalk.jou
+#-----------------------------------------------------------
+source D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl/xsim.dir/spmv_kernel/webtalk/xsim_webtalk.tcl -notrace

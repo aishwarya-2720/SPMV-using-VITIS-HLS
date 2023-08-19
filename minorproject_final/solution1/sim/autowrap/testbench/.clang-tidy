@@ -1,0 +1,1 @@
+ {CheckOptions: [ {key: xilinx-tb-process.TopFunctionName, value: 'spmv_kernel'}, {key: xilinx-tb-process.KeepTopName, value: 1} ] } 

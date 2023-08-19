@@ -1,0 +1,14 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../sourcefiles/spmvtop.cpp in debug mode
+   Compiling ../../../../sourcefiles/spmvkernel.cpp in debug mode
+   Generating csim.exe
+
+ row_size = 100
+
+ col_size = 100
+
+ data_size = 702
+TEST PASSED
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

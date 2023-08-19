@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug 11 14:06:18 2023
+# Process ID: 18540
+# Current directory: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl
+# Command line: xsim.exe -mode tcl -source {xsim.dir/spmv_kernel/xsim_script.tcl}
+# Log file: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl/xsim.log
+# Journal file: D:/xilinx/minorproject_final/minorproject_final/solution1/sim/vhdl\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/spmv_kernel/xsim_script.tcl
+source spmv_kernel.tcl
